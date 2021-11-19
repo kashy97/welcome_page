@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.App{
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    margin:5% 5% 0% 5%;
+    
+}
+h3{
+    color:tomato;
+    font-weight: bolder;
+    font-family: cursive;
+}
+p{
+    color:tomato;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.navbar-brand{
+    font-family: cursive;
+}
+.content{
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 1rem;
+    align-items: center;
+    @media (max-width:600px){
+        flex-direction: row;
+    }
+}
+.container{
+    margin:0;
+}
+
+.footer{
+    display: flex;
+    padding-left: 5%;
+    background: blue;
+    font-family: var(--sans-serif);
+    bottom: 0%;
+    width: 100%;
+}
+
+.word{
+    color:cornsilk;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+}
+a.word:hover{
+    color: cornsilk;
+    cursor: default;
+}
+
+.points{
+    list-style: none;
+}
